@@ -13,7 +13,8 @@ A simple and lightweight Discord bot that fetches memes from Reddit using the [m
 ### Prerequisites
 
 - Python 3.8+
-- A Discord bot token
+- A Discord bot token with `Message Content Intent` toggled
+- Oauth2 link with `Bot` and `Send Messages` permissions  
 - `pip` installed packages:
   - `discord.py`
   - `requests`
